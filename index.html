@@ -1,94 +1,24 @@
-@extends('emails.narrative.layouts')
-@section('contents')
-    <tr>
-        <td style="border-bottom:1px solid #e7e7e7;">
-
-            <center>
-                <table cellpadding="0" cellspacing="0" width="100%" class="w320" style="border:1px solid #dadada;color:#909090;">
-                    <tr>
-                        <td align="left" class="mobile-padding" style="padding:20px 20px 0">
-							<div style="text-align:right;"><img src="{{asset('favicon256.png')}}" width=40></div>
-                            <br class="mobile-hide" />
-                            <div style="font-size:15px;">
-                            	<p>{{$websiteName}}</p>
-								<p>SSR 服務即將到期提醒</p>
-                                <p>您的帳號【{{$lastCanUseDays}}】天後即將到期</p>
-								<p>確保您能繼續正常使用我們的服務</p>
-								<p>请記得續費!</p>
-                              	<br>
-                              	<p>Meowo</p>
-                            </div>
-
-                            <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
-                                <tr>
-                                    <td>
-                                        <div>
-                                            <a href="https://meowo.in"
-                                               style="background-color:#D84A38;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:lighter;line-height:33px;text-align:center;text-decoration:none;width:240px;-webkit-text-size-adjust:none;">
-                                              	點這到 {{$websiteName}} 續費
-                                          	</a>
-                                        </div>
-                                    </td>
-                                    <td width="316" style="background-color:#ffffff; font-size:0; line-height:0;">&nbsp;</td>
-                                </tr>
-                            </table>
-                            <br><br>
-                        </td>
-                        <td class="mobile-hide" style="padding-top:20px;padding-bottom:0;vertical-align:bottom">
-                        </td>
-                    </tr>
-                </table>
-            </center>
-
-        </td>
-    </tr>
-    {{--<tr>--}}
-        {{--<td valign="top" style="background-color:#f8f8f8;border-bottom:1px solid #e7e7e7;">--}}
-
-            {{--<center>--}}
-                {{--<table border="0" cellpadding="0" cellspacing="0" width="600" class="w320" style="height:100%;">--}}
-                    {{--<tr>--}}
-                        {{--<td valign="top" class="mobile-padding" style="padding:20px;">--}}
-                            {{--<h2>Enjoy 50% off!</h2>--}}
-                            {{--<br>--}}
-                            {{--You'll be the first to hear about new arrivals, exclusive promotionas, cool collaborations, and the latest in everything.<br>--}}
-                            {{--<br>--}}
-                            {{--Enter <b>XLKIJP6887F</b> at your next checkout!<br><br>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                {{--</table>--}}
-            {{--</center>--}}
-
-        {{--</td>--}}
-    {{--</tr>--}}
-
-@endsection
-
-
-<td align="left" style="padding:20px 20px 0">
-							<div style="text-align:right"><img src="https://ci3.googleusercontent.com/proxy/86-DqfU3R8hVfVBdpECYx_nsg9iVjKdL2C82E1oV0nDYA1U42clG5VAwVip_xQeqnOc=s0-d-e1-ft#http://localhost/favicon256.png" width="40" class="CToWUd"></div>
-                            <br>
-                            <div style="font-size:15px">
-                            	<p>喵喵網路科技</p>
-								<p>SSR 服務即將到期提醒</p>
-                                <p>您的帳號【1】天後即將到期</p>
-								<p>確保您能繼續正常使用我們的服務</p>
-								<p>请記得續費!</p>
-                              	<br>
-                              	<p>Meowo</p>
-                            </div>
-
-                            <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
-                                <tbody><tr>
-                                    <td>
-                                        <div>
-                                            <a href="https://meowo.in" style="background-color:#d84a38;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:lighter;line-height:33px;text-align:center;text-decoration:none;width:240px" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://meowo.in&amp;source=gmail&amp;ust=1573780046854000&amp;usg=AFQjCNESxKreWn5w5QfkL1H0K9gLoJebLQ">
-                                              	點這到 喵喵網路科技 續費
-                                          	</a>
-                                        </div>
-                                    </td>
-                                    <td width="316" style="background-color:#ffffff;font-size:0;line-height:0">&nbsp;</td>
-                                </tr>
-                            </tbody></table>
-                            <br><br>
-                        </td>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>貓屋SSR客戶端教學</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- 引入 Bootstrap -->
+      <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+      <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+      <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <h1>Hello, world!</h1>
+ 
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- 包括所有已编译的插件 -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>

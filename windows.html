@@ -9,6 +9,19 @@
 		  body {
 			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 		  }
+		  img{
+			width:70%;
+		  }
+		  .container{
+			text-align:center;
+		  }
+		  p{
+			width:70%;
+			margin:20px auto 20px auto;
+			font-size:18px;
+			line-height:25px;
+			text-align:left;
+		  }
 		</style>
 	  <link href="css/bootstrap-responsive.css" rel="stylesheet">
       <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
@@ -28,12 +41,13 @@
             <span class="icon-bar"></span>
           </button>
           <a class="brand" href="index.html">首頁</a>
+		  <a class="brand" href="https://meowo.in" target="_blank">貓屋網路科技</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="Android"><a href="android.html">Android</a></li>
               <li><a href="windows.html">Windows</a></li>
               <li><a href="ios.html">IOS</a></li>
-			  <li><a href="mac.html">MAC</a></li>
+			  <!--li><a href="mac.html">MAC</a></li-->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -42,10 +56,72 @@
 
     <div class="container">
 
-      <h1>windows</h1>
+		<h4>
+			windows ShadowsocksR 用戶端使用說明
+		</h4>
+		<p>
+			1. 下載windows用戶端解壓<br>
+			2. 進入ssr-win資料夾
+		</p>
+		<img src="img/windows/1.jpg">
+		<p>
+			雙擊 ShadowsocksR-dotnet4.0.exe 啟動客戶端
+		</p>
+		<img src="img/windows/2.jpg">
+		<p>
+			將ShadowsocksR加入系統防火牆規則中,點擊 "允許存取"
+		</p>
+		<img src="img/windows/3.jpg">
+		<p>
+			啟動後,點擊<br>
+			1. win系統桌面右下方箭頭圖示來顯示桌面應用<br>
+			2. 點選小飛機圖示啟動 ShadowsocksR 用戶端
+		</p>
+		<img src="img/windows/4.jpg">
+		<p>
+			在小飛機上滑鼠右鍵開啟功能列表
+		</p>
+		<img src="img/windows/5.jpg">
+		<p>
+			依序選擇<br>
+			1. 伺服器訂閱<br>
+			2. SSR伺服器訂閱設置<br>
+			點擊打開 "SSR伺服器訂閱設置"
+		</p>
+		<img src="img/windows/6.jpg">
+		<p>
+			點擊 "Add" 新增訂閱網址
+		</p>
+		<img src="img/windows/7.jpg">
+		<p>
+			1. 在這裡填入您在貓屋 "快速開始" 頁面中的訂閱網址(組名不用填)<br>
+			2. 填完後,點擊確定
+		</p>
+		<img src="img/windows/8.jpg">
+		<p>
+			確定後回到功能列表,依序選擇<br>
+			1. 伺服器訂閱<br>
+			2. SSR伺服器訂閱設置(不通過代理)<br>
+			點擊 SSR伺服器訂閱設置(不通過代理)來獲取貓屋SSR服務節點
+
+		</p>
+		<img src="img/windows/9.jpg">
+		<p>
+			成功獲取後會win會彈出 "SSR伺服器訂閱更新成功" 訊息,表示您已成功獲取了服務
+		</p>
+		<img src="img/windows/10.jpg">
+		<p>
+			回到功能列表,依序選擇<br>
+			1. 伺服器<br>
+			2. 貓屋網路科技A(此群祖名會依您所購買的服務而不同)<br>
+			3. 選擇您購買的服務,點選後應用便自動連線<br>
+			然後打開 <a class="brand" href="https://www.google.com.tw/ " target="_blank">https://www.google.com.tw/ </a>網址,成功開啟Google首頁表示你已成功翻牆,
+			沒有的話可能是因為網路原因導致無法連線,建議您稍稍等候下或是直接打開飛航模式,然後再關閉飛航模式來將網路重新開啟後再試試
+		</p>
+		<img src="img/windows/11.jpg">
 
     </div> <!-- /container -->
- 
+
       <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
       <script src="https://code.jquery.com/jquery.js"></script>
       <!-- 包括所有已编译的插件 -->
